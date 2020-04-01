@@ -1,0 +1,53 @@
+Agenda git branches
+
+How do we track changes? for this, we have git, and whenver we make new scripts, or update
+something in our project, we make a commit
+
+commit - it'' a snapshot of changes in the project at certain point
+
+commit#1 -- "initial commit"
+
+        BrowserUtilities
+        ConfigurationReader
+        TestBase
+        Driver
+        pom.xml
+        configuration.properties
+
+commit #2 -- "Added login tests class with 2 tests"
+
+    LoginTests
+
+commit #3 -- "Added login page class"
+
+       LoginTests -- updated
+       LoginPage
+
+commit #4 -- "Added BasePage class"
+
+        LoginPage -- updated
+        BasePage
+
+by default, git creates only one branch - master. It's like one history of your project.
+But also, you can create another branch and have different commits going in parallel.
+
+At any point, you can create a new branch.
+But, why do we need this?
+
+First of all, it allows to keep latest stable and verified code in master branch.
+When you are going to code, most likely you will be working on your own branch. Then, once you done
+you can propose your changes to the main branch - master. it calls - pull request.
+
+For example, developers they create a new branch for some feature. They can work within that branch
+alone and make commits. Then, once feaure has been developed, developer can create a pull request to merge
+a new code with master branch. Code, will be reviewed and tested by CI tests.
+
+CI - continues Integration( related to Jenkins )
+
+who is going to review? Owner of the repository. Some lead, main tester, main developer.
+
+branch - represents independent line of development. Having 2 branches, it's like cloning project twice and work
+on 2 different versions. But when you clone project twice, to merge them, you would need to do it manually.
+When you have 2 branches
+
+
