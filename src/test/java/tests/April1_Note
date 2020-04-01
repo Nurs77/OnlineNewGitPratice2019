@@ -51,3 +51,7 @@ on 2 different versions. But when you clone project twice, to merge them, you wo
 When you have 2 branches
 
 
+
+git commit -a -m "added a new car" ---- add and commit at the same time
+
+
