@@ -55,3 +55,8 @@ When you have 2 branches
 git commit -a -m "added a new car" ---- add and commit at the same time
 
 
+
+in my team, everyone has their own branch. We don'' commit to the master branch directly.
+Instead we work on our own branches. Master branch has latest stable and verified code.
+Once I complete my task, I create a pull request that will be verified by test lead/other tester.
+git
