@@ -54,4 +54,18 @@ When you have 2 branches
 
 git commit -a -m "added a new car" ---- add and commit at the same time
 
+git push - send our code to github
+
+git pull - to get updates from github
+
+git branch - to see list of branches
+
+git branch <name> - create a new branch, branch out from the current branch - master.
+
+git branch dev - create a new branch with name - dev.
+
+git checkout <branch name> - to switch to another branch
+
+
+
 
